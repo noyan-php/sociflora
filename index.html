@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociflora - Giriş Yap veya Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Language Toggle -->
+        <div class="language-toggle">
+            <button type="button" class="lang-btn active" data-lang="tr">TR</button>
+            <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo-container">
+            <h1 class="brand-name">Sociflora</h1>
+            <p class="brand-tagline" data-tr="İlham Kaynağı" data-en="Your Inspiration">İlham Kaynağı</p>
+        </div>
+
+        <!-- Mode Toggle -->
+        <div class="mode-toggle">
+            <button type="button" class="toggle-btn active" data-mode="login">Giriş Yap</button>
+            <button type="button" class="toggle-btn" data-mode="register">Kayıt Ol</button>
+        </div>
+
+        <!-- Welcome Message -->
+        <h2 class="welcome-text" id="welcomeText">Hoş geldiniz</h2>
+
+        <!-- Login Form -->
+        <form id="authForm" class="login-form">
+            <div class="input-wrapper">
+                <input type="email" id="email" class="glass-input" placeholder="Email adresiniz" required autocomplete="email">
+            </div>
+
+            <div class="input-wrapper">
+                <input type="password" id="password" class="glass-input" placeholder="Şifreniz" required autocomplete="current-password">
+            </div>
+
+            <!-- User Type Selection (only in register mode) -->
+            <div id="userTypeSection" class="user-type-section" style="display: none;">
+                <p class="user-type-label" data-tr="Ne yapmak istiyorsunuz?" data-en="What would you like to do?">Ne yapmak istiyorsunuz?</p>
+                <div class="user-type-options">
+                    <label class="user-type-card">
+                        <input type="radio" name="user_type" value="seller" required>
+                        <div class="card-content">
+                            <span class="card-icon">🌺</span>
+                            <span class="card-title" data-tr="Çiçekçiyim" data-en="I am a florist">Çiçekçiyim</span>
+                            <span class="card-desc" data-tr="Ürünlerimi paylaşacağım" data-en="I will share my products">Ürünlerimi paylaşacağım</span>
+                        </div>
+                    </label>
+                    <label class="user-type-card">
+                        <input type="radio" name="user_type" value="lover" required>
+                        <div class="card-content">
+                            <span class="card-icon">🌸</span>
+                            <span class="card-title" data-tr="Çiçek seviyorum" data-en="I love flowers">Çiçek seviyorum</span>
+                            <span class="card-desc" data-tr="Çiçekçileri takip edeceğim" data-en="I will follow florists">Çiçekçileri takip edeceğim</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-primary" id="submitBtn">
+                Giriş Yap
+            </button>
+        </form>
+    </div>
+
+    <!-- Floating Islands Background -->
+    <div class="bg-islands">
+        <div class="island island-1"></div>
+        <div class="island island-2"></div>
+        <div class="island island-3"></div>
+        <div class="island island-4"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
