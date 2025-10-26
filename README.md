@@ -10,8 +10,6 @@
 
 Modern glassmorphism tasarımı ve yüzen ada animasyonları ile çiçekçilere özel sosyal medya platformu.
 
-![Sociflora Login](screenshots/login-screen.png)
-
 ## 🌸 Özellikler / Features
 
 - 🌸 **Glassmorphism Design** - Modern siyah cam yüzen ada tasarımı
@@ -36,26 +34,25 @@ Sociflora, **çiçekçiler ve çiçek severler** için özel tasarlanmış bir s
 
 ## 📸 Ekran Görüntüleri / Screenshots
 
-### Login Sayfası / Login Page
-![Login Screen](screenshots/login-screen.png)
+<div align="center">
 
-### Kayıt Sayfası / Register Page  
-![Register Screen](screenshots/register-screen.png)
+<table>
+<tr>
+<td align="center"><b>Login</b><br><img src="screenshots/login-screen.png" width="200"><br>Giriş Sayfası</td>
+<td align="center"><b>Register</b><br><img src="screenshots/register-screen.png" width="200"><br>Kayıt Sayfası</td>
+<td align="center"><b>Dashboard</b><br><img src="screenshots/scroll-screen.png" width="200"><br>Ana Feed</td>
+</tr>
+<tr>
+<td align="center"><b>Messages</b><br><img src="screenshots/chat-screen.png" width="200"><br>Mesajlar</td>
+<td align="center"><b>Search</b><br><img src="screenshots/socifind-screen.png" width="200"><br>Arama</td>
+<td align="center"><b>Profile</b><br><img src="screenshots/profile-screen.png" width="200"><br>Profil</td>
+</tr>
+<tr>
+<td colspan="3" align="center"><b>Create Post</b><br><img src="screenshots/post-screen.png" width="300"><br>Gönderi Oluştur</td>
+</tr>
+</table>
 
-### Ana Sayfa / Dashboard
-![Dashboard Feed](screenshots/scroll-screen.png)
-
-### Mesajlar / Messages
-![Messages](screenshots/chat-screen.png)
-
-### Arama / Search
-![Search Florists](screenshots/socifind-screen.png)
-
-### Profil / Profile
-![User Profile](screenshots/profile-screen.png)
-
-### Gönderi Oluştur / Create Post
-![Create Post](screenshots/post-screen.png)
+</div>
 
 ## 🚀 Kurulum / Installation
 
